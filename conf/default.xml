@@ -1,0 +1,7 @@
+<site name="PlungeCMS_Test">
+  <width>850</width>
+  <height>700</height>
+  <page id="home">
+    <file>home.php</file>
+  </page>
+</site>
