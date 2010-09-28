@@ -2,17 +2,35 @@
 <html>
 <head>
   <style>p { color:red; }</style>
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="lib/jquery-1.4.2.js"></script>
+  <script src="lib/jquery.localscroll-min.js"></script>
+  <script src="lib/jquery-scrollTo-1.4.2.js"></script>
   <script>
   $(document).ready(function () {
+    $.localScroll()
     });
   </script>
   <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 </head>
 <body>
-    <div class="component">first</div>
-    <div class="component">second</div>
-    <div class="component">third</div>
-    <div class="component">fourth</div>
+    <div class="component">
+      <a name="first"/>  
+      <p>first <a href="#second">Next</a></p>
+    </div>
+
+    <div class="component">
+      <a name="second"/>
+      <p>second <a href="#third">Next</a></p>
+    </div>
+
+    <div class="component">
+      <a name="third"/>
+      <p>third <a href="#fourth">Next</a></p>
+    </div>
+
+    <div class="component">
+      <a name="fourth"/>
+      <p>fourth <a href="#first">Top</a></p>
+    </div>
 </body>
 </html>

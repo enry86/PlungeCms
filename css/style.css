@@ -1,8 +1,8 @@
 div.component{
-    background:blue;
     height:800px;
     width:800px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    border: 2px solid black;
 }
