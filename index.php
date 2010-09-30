@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<?php
+    include('src/site.php');
+    if (isset($_GET['site'])) {
+        $site = $_GET['site'];
+    }
+    else {
+        $site = 'default';
+    }
+    $s = new Site($site);
+    $s->read_site();
+?>
 <html>
 <head>
   <style>p { color:red; }</style>
@@ -10,21 +21,18 @@
     $.localScroll()
     });
   </script>
-  <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+  <?php 
+  echo '<link rel="stylesheet" type="text/css" href="css/' . $s->get_css()  . '"/>'; 
+  ?>
+  <title><?php echo $s->get_title(); ?></title>
 </head>
 <body>
-<?php
-    include('src/site.php');
-    if (isset($_GET['site'])) {
-        $site = $_GET['site'];
-    }
-    else {
-        $site = 'default';
-    }
-    $s = new Site($site);
-    $s->show_site();
-    echo 'LOLOLOL'
-?>
-
+  <div id="top" class=base>
+    <?php
+      $s->draw_site(); 
+    
+    
+    ?>
+  </div>  
 </body>
 </html>

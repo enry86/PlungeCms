@@ -1,7 +1,15 @@
 <site name="PlungeCMS_Test">
-  <width>850</width>
-  <height>700</height>
+  <css>style.css</css>  
   <page id="home">
+    <type>slide</type>
     <file>home.php</file>
+  </page>
+  <page id="sep1">
+    <type>separator</type>
+    <file>sep.php</file>
+  </page>
+  <page id="about">
+    <type>slide</type>
+    <file>about.php</file>
   </page>
 </site>
