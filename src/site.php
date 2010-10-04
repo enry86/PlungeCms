@@ -53,8 +53,9 @@ class Site {
             $next = null;
         }
         
-        echo '<a name="slide' . $index . '"/>';
+        echo '<div id="slide' . $index . '" class="slide">';
         include('content/' . $slide->get_file());
+	echo '</div>';
         include('cms-content/menu.php'); 
     }
 

@@ -5,13 +5,13 @@
   <?php
     if ($prev != null) {
         echo '<div class="smenu_prev">';
-        echo '<a href="#' . $prev . '"/>previous</a>';
+        echo '<a class="prev" href="#' . $prev . '"/>previous</a>';
         echo '</div>';
     }
 
     if ($next != null) {
         echo '<div class="smenu_next">';
-        echo '<a href="#' . $next . '">next</a>';
+        echo '<a class="next" href="#' . $next . '">next</a>';
         echo '</div>';
     }
 

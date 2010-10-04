@@ -16,9 +16,33 @@
   <script src="lib/jquery-1.4.2.js"></script>
   <script src="lib/jquery.localscroll-min.js"></script>
   <script src="lib/jquery-scrollTo-1.4.2.js"></script>
+  <script type="text/javascript" src="lib/jquery.scrolling-parallax.js"></script> 
   <script>
   $(document).ready(function () {
-    $.localScroll()
+    $.localScroll();
+    
+    $(function() {
+ 
+    $.scrollingParallax('images/cl_pat_big.png', {
+        staticSpeed : 0.5,
+        loopIt : false,
+        staticScrollLimit : false,
+	bgRepeat:true,
+        bgHeight: "4000px",
+	disableIE6 : true
+    });
+    
+    $.scrollingParallax('images/cl_pat_sma.png', {
+        staticSpeed : 0.1,
+        loopIt : false,
+	staticScrollLimit : false,
+        bgRepeat : true,
+	bgHeight: "4000px",
+        disableIE6 : true
+    });
+    
+});
+    
     });
   </script>
   <?php 
@@ -27,12 +51,13 @@
   <title><?php echo $s->get_title(); ?></title>
 </head>
 <body>
+
+<div id='wrapper'>
   <div id="top" class=base>
     <?php
       $s->draw_site(); 
-    
-    
     ?>
   </div>  
+</div>
 </body>
 </html>
