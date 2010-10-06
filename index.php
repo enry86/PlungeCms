@@ -52,7 +52,7 @@
   <title><?php echo $s->get_title(); ?></title>
 </head>
 <body>
-
+<div class="logo"></div>
 <div id='wrapper'>
   <div id="top" class=base>
     <?php

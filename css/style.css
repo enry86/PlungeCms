@@ -1,6 +1,6 @@
 div.slide {
-    height:550px;
-    width:800px;
+    height:800px;
+    width:900px;
     margin: 0 auto;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -24,31 +24,35 @@ div.separator2 {
 }
 
 
-
+div.text {
+    font-family: Arial, sans-serif;
+}
 
 div.slidemenu {
-    height: 100px;
-    width:800px;
-    margin-top: 0px;
-    margin: 0 auto;
+    height: 650px;
+    width:100px;
+    float: right;
+    margin: 0px;
+    background:white;
+    border-top: 5px solid #90a5ff;
+    border-bottom: 5px solid #90a5ff;
+    border-right: 5px solid #90a5ff;
 }
 
 div.smenu_next {
-    margin: 0 auto;
-    width: 30%;
     text-align: center;
 }
 
 div.smenu_prev {
-    float: right;
-    width: 30%;
     text-align: center;
 }
 
 div.smenu_top {
-    float: left;
-    width: 30%;
     text-align: center;
+}
+
+div.title {
+    width:100%;
 }
 
 div.base {
@@ -71,11 +75,27 @@ a {
 }
 
 div.content {
-    width:100%;
-    height:500px;
-    background: white;
-    border: 5px solid #90a5ff
+    width:790px;
+    height:650px;
+    background-color: white;
+    background-image: url('../images/sl_back.jpg');
+    background-position:center center; 
+    background-repeat: no-repeat no-repeat;
+    float:left;
+    border: 5px solid #90a5ff;
+    border-right: 0px;
 }
+
+div.cont_first {
+    width:900px;
+    height:700px;
+    background-color: white;
+    background-image: url('../images/sl_back.jpg');
+    background-position:center center; 
+    background-repeat: no-repeat no-repeat;
+    border: 5px solid #90a5ff;
+}
+
 
 #cont_sl0 {
     
@@ -90,18 +110,36 @@ div.content {
 }
 
 p {
-    color: black;
+    color: #444;
     margin 10px;
 }
 
 h1 {
-    color: blue;
+    color: #ff9227;
     font-family: "Arial", serif;
     font-weight:bold;
     font-size:50px;
     font-variant:small-caps;
     text-shadow: gray 0px 0px 5px;
     margin-top: 0px;
+}
+
+h3 {
+    color: #ff9227;
+    font-family: "Arial", serif;
+    font-weight:bold;
+    font-size:30px;
+    font-variant:small-caps;
+    text-shadow: gray 0px 0px 5px;
+    margin-top: 0px;
     margin-left:20px;
 }
 
+div.logo{
+    background-image:url('../images/logo9.png');
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    position: fixed;
+    width:100%;
+    height:700px;
+}

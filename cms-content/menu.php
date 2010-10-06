@@ -12,7 +12,7 @@
     if ($next != null) {
         $img = '<img src="images/jump.png" alt="jump" heigth="100" width="150"/>';
         echo '<div class="smenu_next">';
-        echo '<a class="next" href="#' . $next . '">' . $img . '</a>';
+        echo '<a class="next" href="#' . $next . '">next</a>';
         echo '</div>';
     }
 

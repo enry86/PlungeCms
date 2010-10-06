@@ -52,11 +52,22 @@ class Site {
         else {
             $next = null;
         }
-        
+        $class = 'content';
+        if ($index == 0){
+            $class = 'cont_first';
+        } 
         echo '<div id="slide' . $index . '" class="slide">';
+        echo '<div  class="' . $class . '">';
         include('content/' . $slide->get_file());
+        if ($index == 0) {
+            echo '<div class="jump">';
+            echo '<a href="#' . $next . '">';
+            echo '<img src="images/jump.png" height="100" width="150" alt="Jump!"/>';
+            echo '</a></div>';
+        }
 	echo '</div>';
-        include('cms-content/menu.php'); 
+        if ($index != 0) include('cms-content/menu.php'); 
+	echo '</div>';
     }
 
 

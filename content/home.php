@@ -1,6 +1,8 @@
-  <div id="cont_sl0" class="content">
+
     <div class="title">
     <h1>Bungee Mining: Take the Plunge!</h1>
+    </div>
+<div class="text">
     <p>
  Bungee mining is a new approach to interactive data mining and visualization proposed by the creators of Reactive Search Optimization (RSO).
 </p><p>
@@ -15,7 +17,7 @@ There are two phases to the Bungee Mining approach: the first phase - the jump -
 Methods to achieve these objectives are based on interaction, mutual learning and feedback loops – both from the decision maker to the software system and from the software system to the decision maker. The end user discovers possibilities and may change his objectives after the first results are available. The system saves the user’s judgments and responses and uses them in an optimal way to focus his search more and more towards his real preferences.
 A quick reaction based on a sound machine learning approach is coupled to proactive actions to prepare for changes, measure progress and come progressively closer to the target.  
     </p>
-    </div>
-  </div>
+</div>
+
 
 
