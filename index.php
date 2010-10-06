@@ -23,16 +23,17 @@
     
     $(function() {
  
-    $.scrollingParallax('images/cl_pat_big.png', {
+    $.scrollingParallax('images/nuvola_big.png', {
         staticSpeed : 0.5,
         loopIt : false,
         staticScrollLimit : false,
 	bgRepeat:true,
         bgHeight: "4000px",
+        bgPosition: "100px 150px",
 	disableIE6 : true
     });
     
-    $.scrollingParallax('images/cl_pat_sma.png', {
+    $.scrollingParallax('images/nuvola_sma.png', {
         staticSpeed : 0.1,
         loopIt : false,
 	staticScrollLimit : false,

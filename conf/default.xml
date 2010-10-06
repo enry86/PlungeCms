@@ -12,4 +12,36 @@
     <type>slide</type>
     <file>about.php</file>
   </page>
+  <page id="sep2">
+    <type>separator</type>
+    <file>sep1.php</file>
+  </page>
+  <page id="varie">
+    <type>slide</type>
+    <file>varie.php</file>
+  </page>
+  <page id="sep1">
+    <type>separator</type>
+    <file>sep.php</file>
+  </page>
+  <page id="varie">
+    <type>slide</type>
+    <file>slide3.php</file>
+  </page>
+  <page id="sep2">
+    <type>separator</type>
+    <file>sep1.php</file>
+  </page>
+  <page id="varie">
+    <type>slide</type>
+    <file>slide4.php</file>
+  </page>
+  <page id="sep1">
+    <type>separator</type>
+    <file>sep.php</file>
+  </page>
+  <page id="varie">
+    <type>slide</type>
+    <file>slide5.php</file>
+  </page>
 </site>
