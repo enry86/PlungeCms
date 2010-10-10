@@ -1,6 +1,8 @@
-<div class="right">
 <div class="title">
 <h3>Bungee mining is not bungee programming</h3>
+</div>
+<div class="image">
+<img src="images/slides2/slide2.jpg" alt="slide1" height="290" width="770"/>
 </div>
 <div class="text">
 <p>
@@ -16,7 +18,4 @@ No actual programming is required for many basic application scenarios, when per
         }
         if ($index != 0) include('cms-content/menu.php'); 
 ?>
-</div>
-<div class="image">
-<img src="images/slides/slide2.jpg" alt="slide1" height="600" width="230"/>
-</div>
+

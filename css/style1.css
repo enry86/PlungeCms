@@ -28,7 +28,7 @@ div.separator2 {
 
 div.slidemenu {
     height: 50px;
-    width: 100%;
+    width: 400px;
     margin: 0px;
     background:white;
     border-bottom-right-radius:8px;
@@ -55,7 +55,7 @@ div.smenu_top {
 
 div.jump {
     height:120px;
-    width: 100%;
+    width: 400px;
     background:white;
     border-bottom-right-radius:8px;
     -webkit-border-bottom-right-radius:8px;
@@ -90,7 +90,7 @@ img {
 }
 
 div.image {
-    width:230px;
+    width:400px;
     height:100%;
     float:left;
     margin:0px;
@@ -101,7 +101,7 @@ div.image {
 }
 
 div.right {
-    width:570px;
+    width:400px;
     height:100%;
     float:right;
     margin:0px;
@@ -109,7 +109,7 @@ div.right {
     
 div.text {
     font-family: Arial, sans-serif;
-    width:550px;
+    width:380px;
     height:400px;
     background: white;
     padding:10px;
@@ -120,7 +120,7 @@ div.text {
 
 
 div.title {
-    width:545px;
+    width:375px;
     height:70px;
     background: gray url('../images/back_tit.jpg') repeat-x ;
     text-align:right;
@@ -133,7 +133,7 @@ div.title {
 
 div.text_main {
     font-family: Arial, sans-serif;
-    width:550px;
+    width:380px;
     height:330px;
     background: white;
     padding:10px;
@@ -171,8 +171,8 @@ p {
     padding: 0px;
     text-align:left;
     font-size:12px;
-    margin: 0px;
-    margin-bottom:10px;
+    margin: 10px;
+    margin-bottom:15px;
 }
 
 h1 {

@@ -1,8 +1,8 @@
 <site name="PlungeCMS_Test">
-  <css>style.css</css>  
+  <css>style2.css</css>  
   <page id="home">
     <type>slide</type>
-    <file>home.php</file>
+    <file>test2/home.php</file>
   </page>
   <page id="sep1">
     <type>separator</type>
@@ -10,7 +10,7 @@
   </page>
   <page id="home">
     <type>slide</type>
-    <file>home2.php</file>
+    <file>test2/home2.php</file>
   </page>
   <page id="sep1">
     <type>separator</type>
@@ -18,7 +18,7 @@
   </page>
   <page id="about">
     <type>slide</type>
-    <file>about.php</file>
+    <file>test2/about.php</file>
   </page>
   <page id="sep2">
     <type>separator</type>
@@ -26,7 +26,7 @@
   </page>
   <page id="varie">
     <type>slide</type>
-    <file>varie.php</file>
+    <file>test2/varie.php</file>
   </page>
   <page id="sep1">
     <type>separator</type>
@@ -34,15 +34,15 @@
   </page>
   <page id="varie">
     <type>slide</type>
-    <file>slide3.php</file>
+    <file>test2/slide3.php</file>
   </page>
   <page id="sep2">
     <type>separator</type>
-    <file>sep1.php</file>
+    <file>test2/sep1.php</file>
   </page>
   <page id="varie">
     <type>slide</type>
-    <file>slide4.php</file>
+    <file>test2/slide4.php</file>
   </page>
   <page id="sep1">
     <type>separator</type>
@@ -50,6 +50,6 @@
   </page>
   <page id="varie">
     <type>slide</type>
-    <file>slide5.php</file>
+    <file>test2/slide5.php</file>
   </page>
 </site>

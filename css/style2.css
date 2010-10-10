@@ -30,10 +30,6 @@ div.slidemenu {
     height: 50px;
     width: 100%;
     margin: 0px;
-    background:white;
-    border-bottom-right-radius:8px;
-    -webkit-border-bottom-right-radius:8px;
-    -moz-border-radius-bottomright:8px;
 }
 
 div.smenu_next {
@@ -54,13 +50,11 @@ div.smenu_top {
 }
 
 div.jump {
+    margin: 0 auto:
     height:120px;
     width: 100%;
-    background:white;
-    border-bottom-right-radius:8px;
-    -webkit-border-bottom-right-radius:8px;
-    -moz-border-radius-bottomright:8px;
 }
+
 
 
 
@@ -90,10 +84,9 @@ img {
 }
 
 div.image {
-    width:230px;
-    height:100%;
-    float:left;
-    margin:0px;
+    width:770px;
+    height:290px;
+    margin:0 auto;
     background:#444;
     box-shadow: black 0px 0px 5px;
     -moz-box-shadow: black 0px 0px 5px;
@@ -109,37 +102,27 @@ div.right {
     
 div.text {
     font-family: Arial, sans-serif;
-    width:550px;
-    height:400px;
-    background: white;
+    width:780px;
+    height:200px;
     padding:10px;
-    border-top-right-radius:8px;
-    -webkit-border-top-right-radius:8px;
-    -moz-border-radius-topright:8px;
 }
 
 
 div.title {
-    width:545px;
-    height:70px;
-    background: gray url('../images/back_tit.jpg') repeat-x ;
+    width:100%;
+    height:30px;
     text-align:right;
     margin:0px;
-    margin-top:25px;
-    border-top-right-radius:8px;
-    -webkit-border-top-right-radius:8px;
-    -moz-border-radius-topright:8px;
+    margin-top:5px;
+    margin-bottom:5px;
+
 }
 
 div.text_main {
     font-family: Arial, sans-serif;
-    width:550px;
-    height:330px;
-    background: white;
+    width:780px;
+    height:130px;
     padding:10px;
-    border-top-right-radius:8px;
-    -webkit-border-top-right-radius:8px;
-    -moz-border-radius-topright:8px;
 }
 
 
@@ -147,15 +130,19 @@ div.text_main {
 div.content {
     width:800px;
     height:600px;
+    background:white;
+    border: 2px solid #777;
+    margin: 0 auto;
+    box-shadow: black 0px 0px 5px;
+    -moz-box-shadow: black 0px 0px 5px;
+    -webkit-box-shadow: black 0px 0px 5px;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+
+
 }
 
-div.cont_first {
-    width:800px;
-    height:530px;
-    background: white;
-    border: 5px solid #90a5ff;    
-    border-bottom:0px;
-}
 
 
 #wrapper { 
@@ -176,23 +163,19 @@ p {
 }
 
 h1 {
-    color: #ff9227;
-    font-family: "Arial", serif;
-    font-weight:bold;
+    color: black;
+    font-family: "Times New Roman", sans-serif;
     font-size:30px;
-    font-variant:small-caps;
-    text-shadow: black 0px 0px 5px;
+    text-shadow: #444 0px 0px 5px;
     margin-top: 0px;
     margin-right: 10px;
 }
 
 h3 {
-    color: #71ff66;
-    font-family: "Arial", serif;
-    font-weight:bold;
+    color: black;
+    font-family: "Times New Roman", sans-serif;
     font-size:25px;
-    font-variant:small-caps;
-    text-shadow: black 0px 0px 5px;
+    text-shadow: #444 0px 0px 5px;
     margin:0px;
     margin-right:20px;
 }

@@ -1,6 +1,6 @@
 <div class="right">
 <div class="title">
-<h1>Bungee Mining: Take the Plunge!</h1>
+<h1>Bungee Mining:<br/> Take the Plunge!</h1>
 </div>
 <div class="text_main">
 <p>
@@ -27,6 +27,6 @@ Bungee Mining hints at extreme programming and agile software development, but i
 ?>
 </div>
 <div class="image">
-<img src="images/slides/slide0.jpg" alt="slide1" height="600" width="230"/>
+<img src="images/slides1/slide0.jpg" alt="slide1" height="600" width="400"/>
 </div>
 

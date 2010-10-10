@@ -29,12 +29,21 @@
         staticScrollLimit : false,
 	bgRepeat:true,
         bgHeight: "4000px",
-        bgPosition: "100px 150px",
+        bgPosition: "-800px 150px",
 	disableIE6 : true
     });
     
     $.scrollingParallax('images/nuvola_sma.png', {
         staticSpeed : 0.1,
+        loopIt : false,
+	staticScrollLimit : false,
+        bgRepeat : true,
+	bgHeight: "4000px",
+        disableIE6 : true
+    });
+
+    $.scrollingParallax('images/nuvola2.jpg', {
+        staticSpeed : 0.05,
         loopIt : false,
 	staticScrollLimit : false,
         bgRepeat : true,

@@ -18,5 +18,5 @@ No actual programming is required for many basic application scenarios, when per
 ?>
 </div>
 <div class="image">
-<img src="images/slides/slide2.jpg" alt="slide1" height="600" width="230"/>
+<img src="images/slides1/slide2.jpg" alt="slide1" height="600" width="400"/>
 </div>
